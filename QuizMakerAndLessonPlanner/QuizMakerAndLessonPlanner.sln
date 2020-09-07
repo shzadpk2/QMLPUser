@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30104.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuizMakerAndLessonPlanner", "QuizMakerAndLessonPlanner\QuizMakerAndLessonPlanner.csproj", "{F8D1D1A7-5E0F-428C-AC9F-9A3F7D05FDA0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QMLPRepository", "QMLPRepository\QMLPRepository.csproj", "{01886D67-BCC2-472A-A6FF-17A80FD1495E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QMLPModels", "QMLPModels\QMLPModels.csproj", "{22AE2A91-4D98-4F95-ACBF-2F8252BD7950}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "LessonPlanner-Setup", "QMLP-Setup\QMLP-Setup.vdproj", "{178F0206-71B2-40E2-9A99-0D28F430A352}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F8D1D1A7-5E0F-428C-AC9F-9A3F7D05FDA0}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{F8D1D1A7-5E0F-428C-AC9F-9A3F7D05FDA0}.Debug|Any CPU.Build.0 = Release|Any CPU
+		{F8D1D1A7-5E0F-428C-AC9F-9A3F7D05FDA0}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8D1D1A7-5E0F-428C-AC9F-9A3F7D05FDA0}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{01886D67-BCC2-472A-A6FF-17A80FD1495E}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{01886D67-BCC2-472A-A6FF-17A80FD1495E}.Debug|Any CPU.Build.0 = Release|Any CPU
+		{01886D67-BCC2-472A-A6FF-17A80FD1495E}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{01886D67-BCC2-472A-A6FF-17A80FD1495E}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{22AE2A91-4D98-4F95-ACBF-2F8252BD7950}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{22AE2A91-4D98-4F95-ACBF-2F8252BD7950}.Debug|Any CPU.Build.0 = Release|Any CPU
+		{22AE2A91-4D98-4F95-ACBF-2F8252BD7950}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{22AE2A91-4D98-4F95-ACBF-2F8252BD7950}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{178F0206-71B2-40E2-9A99-0D28F430A352}.Debug|Any CPU.ActiveCfg = Release
+		{178F0206-71B2-40E2-9A99-0D28F430A352}.Release|Any CPU.ActiveCfg = Debug
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8BE8C802-953C-4431-87F3-8662562BD90C}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,10 @@
+C:\VirtualTutorProjects\QuizMakerAndLessonPlanner\QMLPModels\bin\Debug\QMLPModels.dll
+C:\VirtualTutorProjects\QuizMakerAndLessonPlanner\QMLPModels\bin\Debug\QMLPModels.pdb
+C:\VirtualTutorProjects\QuizMakerAndLessonPlanner\QMLPModels\obj\Debug\QMLPModels.csproj.CoreCompileInputs.cache
+C:\VirtualTutorProjects\QuizMakerAndLessonPlanner\QMLPModels\obj\Debug\QMLPModels.dll
+C:\VirtualTutorProjects\QuizMakerAndLessonPlanner\QMLPModels\obj\Debug\QMLPModels.pdb
+C:\VirtualTutorProjects\QMLPUser\QuizMakerAndLessonPlanner\QMLPModels\bin\Debug\QMLPModels.dll
+C:\VirtualTutorProjects\QMLPUser\QuizMakerAndLessonPlanner\QMLPModels\bin\Debug\QMLPModels.pdb
+C:\VirtualTutorProjects\QMLPUser\QuizMakerAndLessonPlanner\QMLPModels\obj\Debug\QMLPModels.csproj.CoreCompileInputs.cache
+C:\VirtualTutorProjects\QMLPUser\QuizMakerAndLessonPlanner\QMLPModels\obj\Debug\QMLPModels.dll
+C:\VirtualTutorProjects\QMLPUser\QuizMakerAndLessonPlanner\QMLPModels\obj\Debug\QMLPModels.pdb

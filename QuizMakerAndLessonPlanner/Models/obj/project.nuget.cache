@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "DLkwXlts2Ez/+cVV++oHYWRmHg4RSJvJNoUPngcIRQb3MpU1JLw1eQ4wzMAoV5WSI+0qFvPNsMdDVpb/fYNRYQ==",
+  "success": true,
+  "projectFilePath": "C:\\VirtualTutorProjects\\QuizMakerAndLessonPlanner\\Models\\Models.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\shzad\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

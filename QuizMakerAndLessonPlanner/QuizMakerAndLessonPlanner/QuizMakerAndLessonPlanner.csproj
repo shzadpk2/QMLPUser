@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F8D1D1A7-5E0F-428C-AC9F-9A3F7D05FDA0}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>QuizMakerAndLessonPlanner</RootNamespace>
+    <AssemblyName>QuizMakerAndLessonPlanner</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>256x256.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddFillBlankQuestions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddFillBlankQuestions.Designer.cs">
+      <DependentUpon>AddFillBlankQuestions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddMoreQuestions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddMoreQuestions.Designer.cs">
+      <DependentUpon>AddMoreQuestions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddMultipleQuestions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddMultipleQuestions.Designer.cs">
+      <DependentUpon>AddMultipleQuestions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddTrueFalseQuestion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddTrueFalseQuestion.Designer.cs">
+      <DependentUpon>AddTrueFalseQuestion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BooksIndex.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BooksIndex.Designer.cs">
+      <DependentUpon>BooksIndex.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DocumentariesIndex.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DocumentariesIndex.Designer.cs">
+      <DependentUpon>DocumentariesIndex.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GamesIndex.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GamesIndex.Designer.cs">
+      <DependentUpon>GamesIndex.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home.Designer.cs">
+      <DependentUpon>Home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LessonPlannerIndex.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LessonPlannerIndex.Designer.cs">
+      <DependentUpon>LessonPlannerIndex.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LessonPlanner.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LessonPlanner.Designer.cs">
+      <DependentUpon>LessonPlanner.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MoviesIndex.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MoviesIndex.Designer.cs">
+      <DependentUpon>MoviesIndex.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QuizMaker.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QuizMaker.Designer.cs">
+      <DependentUpon>QuizMaker.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QuizMakerIndex.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QuizMakerIndex.Designer.cs">
+      <DependentUpon>QuizMakerIndex.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports.Designer.cs">
+      <DependentUpon>Reports.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShowAllQuestions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShowAllQuestions.Designer.cs">
+      <DependentUpon>ShowAllQuestions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShowMultipleQuestion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShowMultipleQuestion.Designer.cs">
+      <DependentUpon>ShowMultipleQuestion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubTopic.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubTopic.Designer.cs">
+      <DependentUpon>SubTopic.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubTopicQuizMakerIndex.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubTopicQuizMakerIndex.Designer.cs">
+      <DependentUpon>SubTopicQuizMakerIndex.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewSubTopics.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewSubTopics.Designer.cs">
+      <DependentUpon>ViewSubTopics.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AddFillBlankQuestions.resx">
+      <DependentUpon>AddFillBlankQuestions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddMoreQuestions.resx">
+      <DependentUpon>AddMoreQuestions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddMultipleQuestions.resx">
+      <DependentUpon>AddMultipleQuestions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddTrueFalseQuestion.resx">
+      <DependentUpon>AddTrueFalseQuestion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BooksIndex.resx">
+      <DependentUpon>BooksIndex.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DocumentariesIndex.resx">
+      <DependentUpon>DocumentariesIndex.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GamesIndex.resx">
+      <DependentUpon>GamesIndex.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home.resx">
+      <DependentUpon>Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LessonPlannerIndex.resx">
+      <DependentUpon>LessonPlannerIndex.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LessonPlanner.resx">
+      <DependentUpon>LessonPlanner.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MoviesIndex.resx">
+      <DependentUpon>MoviesIndex.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="QuizMaker.resx">
+      <DependentUpon>QuizMaker.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuizMakerIndex.resx">
+      <DependentUpon>QuizMakerIndex.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports.resx">
+      <DependentUpon>Reports.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShowAllQuestions.resx">
+      <DependentUpon>ShowAllQuestions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShowMultipleQuestion.resx">
+      <DependentUpon>ShowMultipleQuestion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubTopic.resx">
+      <DependentUpon>SubTopic.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubTopicQuizMakerIndex.resx">
+      <DependentUpon>SubTopicQuizMakerIndex.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewSubTopics.resx">
+      <DependentUpon>ViewSubTopics.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\QMLPModels\QMLPModels.csproj">
+      <Project>{22AE2A91-4D98-4F95-ACBF-2F8252BD7950}</Project>
+      <Name>QMLPModels</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\QMLPRepository\QMLPRepository.csproj">
+      <Project>{01886d67-bcc2-472a-a6ff-17a80fd1495e}</Project>
+      <Name>QMLPRepository</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="256x256.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
